@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/D/code"
 	],
 	"last_version": 3143,
 	"last_window_id": 1,
@@ -20,10 +21,18 @@
 			"buffers":
 			[
 				{
-					"contents": "Package Control Messages\n========================\n\nNodejs\n------\n\n  Nodejs Sublime Text 3 Package\n  =============================\n  \n  Overview\n  --------\n  The Nodejs Sublime Text 3 Package provides a set of code completion, scripts and tools to work with\n  [nodejs](http://nodejs.org).\n  \n  Code Completion\n  ---------------\n  The package code completion is generated from the main nodejs libraries and global namespaces. To invoke\n  the code completion start typing the namespace you want (For example, type `fs`) and then Ctrl + Space, you get this:\n  \n  ![A picture of the file system context menu](http://i.imgur.com/ZCFcC.png)\n  \n  Node Commands\n  -------------\n  You can access node commands in two ways.\n  \n  * Via the menu in `Tools -> Node`\n  * By accessing the Command Palette and typing `node`\n  \n  The current commands available are (with Windows binding, other bindings are provided):\n  \n  * Run current script in node (Alt + R)\n  * Run current script in node debug (Alt + D)\n  * Run current script in node and arguments (Ctrl + Alt + r)\n  * Run current script in node debug and arguments (Ctrl + Alt + D)\n  * Uglify Code\n  * NPM Command\n  * Build documentation (builds the completion files)\n  \n  Snippets\n  ----------------\n  Also included are some boilerplate snippets.  They include functionality such as a http server,\n  reading the contents of a directory, etc.\n  \n  To access these snippets type `node` in your editor followed by Ctrl + Space\n  \n  If you have any boilerplate code you would like to see in here, get in touch.\n  \n  Install\n  -------\n  You can install this package from [Sublime Text 3 package manager](https://packagecontrol.io). Also you can install this package manually:\n  \n  *MacOSX*\n  \n      `git clone https://github.com/tanepiper/SublimeText-Nodejs.git ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/Nodejs`\n  \n  *Windows*\n  \n      `git clone https://github.com/tanepiper/SublimeText-Nodejs \"%APPDATA%\\Sublime Text 3\\Packages\\Nodejs\"`\n  \n  *Linux*\n  \n      `git clone https://github.com/tanepiper/SublimeText-Nodejs $HOME/.config/sublime-text-3/Packages/Nodejs`\n  \n  Build Systems\n  -------------\n  PLEASE NOTE: The build system will be refactored to provide different nodejs build systems (such as jake)\n  \n  If you have a JavaScript file open, by selecting `Tools -> Build Systems -> Nodejs` and\n  then hitting Ctrl + B, you will activate the node build system on your file and node will try to run it.\n  You may need to add a `path` variable to the settings object for this if your node executable is not found\n  \n  TODO\n  ----\n  * ~~uglify_js.js and other ./tools/*.js scripts don't work when the package is installed by SublimeText package manager~~\n  * Refactor plugin's classes inheritance in Nodejs.py\n  * Generate Sublime Text completions during installation phase depending on the version of installed Node\n  * Check for nvm installation\n  * Replace the Nodejs.sublime-build to work with [jake](https://github.com/mde/jake)\n  * Reorganise menu structure\n  * Improve code completion snippets where possible\n  * Provide an interface for writing JavaScript plugins\n  \n  Author & Contributors\n  ----------------------\n  The original author of this package [Tane Piper](https://github.com/tanepiper).\n  At the time the project maintainer is [Vardan Pogosian](https://github.com/varp).\n\n\nBracketHighlighter\n------------------\n\n  # BracketHighlighter\n  \n  Welcome to BracketHighlighter!  For a quick start guide, please go to  \n  `Preferences->Package Settings->BracketHighlighter->Quick Start Guide`.\n\n\nAdvancedNewFile\n---------------\n\n  Thank you for installing the AdvancedNewFile plugin.\n  \n  For more information please visit https://github.com/skuroda/Sublime-AdvancedNewFile.\n  \n  Note you may need to restart Sublime Text after installing this plugin.\n  \n  If you have any questions, comments, or run into issues, please let me know! Hope you enjoy the plugin.\n  \n  Thank you!\n",
+					"file": "/D/code/thee.html",
 					"settings":
 					{
-						"buffer_size": 3942,
+						"buffer_size": 155,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "Package Control Messages\n========================\n\nEmmet\n-----\n\n  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). \n  \n  ******************************\n  Please restart editor \n  to finish installation process \n  after PyV8 was downloaded.\n  ******************************\n  \n  Tab key handler\n  ==========================\n  \n  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.\n  \n  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.\n  \n  Enter key\n  ==========================\n  \n  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).\n  \n  To disable Enter key handler, simply add the following option in your user's Preferences file:\n  \n  \"disable_formatted_linebreak\": true\n  \n  Actions shortcuts\n  ==========================\n  \n  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:\n  https://github.com/sergeche/emmet-sublime\n  \n  Documentation and examples:\n  http://emmet.io\n  \n  ------------------------------\n  Follow me on Twitter: @emmetio\n  ------------------------------\n",
+					"settings":
+					{
+						"buffer_size": 1688,
 						"line_ending": "Windows",
 						"name": "Package Control Messages",
 						"read_only": true,
@@ -47,7 +56,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 476.0
+				"width": 384.0
 			},
 			"console":
 			{
@@ -68,8 +77,13 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/D/code"
+			],
 			"file_history":
 			[
+				"/C/Users/Administrator/thee.html"
 			],
 			"find":
 			{
@@ -101,26 +115,149 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "D:\\code"
+				}
+			],
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"semi_transient": false,
+							"file": "/D/code/thee.html",
+							"semi_transient": true,
 							"settings":
 							{
-								"buffer_size": 3942,
+								"buffer_size": 155,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										132,
-										132
+										155,
+										155
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												150,
+												154
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/tag.png",
+												"region.orangish"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												17,
+												21
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content"
+									],
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1688,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1688,
+										1688
 									]
 								],
 								"settings":
@@ -220,7 +357,7 @@
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 35.0
 			},
 			"layout":
 			{
@@ -250,7 +387,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,1,-1,-1,-1,-1,737,320,199,976",
+			"position": "0,0,1,-32000,-32000,-1,-1,691,264,153,920",
 			"project": "",
 			"replace":
 			{
