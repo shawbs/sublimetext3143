@@ -1,0 +1,310 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3143,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "Package Control Messages\n========================\n\nNodejs\n------\n\n  Nodejs Sublime Text 3 Package\n  =============================\n  \n  Overview\n  --------\n  The Nodejs Sublime Text 3 Package provides a set of code completion, scripts and tools to work with\n  [nodejs](http://nodejs.org).\n  \n  Code Completion\n  ---------------\n  The package code completion is generated from the main nodejs libraries and global namespaces. To invoke\n  the code completion start typing the namespace you want (For example, type `fs`) and then Ctrl + Space, you get this:\n  \n  ![A picture of the file system context menu](http://i.imgur.com/ZCFcC.png)\n  \n  Node Commands\n  -------------\n  You can access node commands in two ways.\n  \n  * Via the menu in `Tools -> Node`\n  * By accessing the Command Palette and typing `node`\n  \n  The current commands available are (with Windows binding, other bindings are provided):\n  \n  * Run current script in node (Alt + R)\n  * Run current script in node debug (Alt + D)\n  * Run current script in node and arguments (Ctrl + Alt + r)\n  * Run current script in node debug and arguments (Ctrl + Alt + D)\n  * Uglify Code\n  * NPM Command\n  * Build documentation (builds the completion files)\n  \n  Snippets\n  ----------------\n  Also included are some boilerplate snippets.  They include functionality such as a http server,\n  reading the contents of a directory, etc.\n  \n  To access these snippets type `node` in your editor followed by Ctrl + Space\n  \n  If you have any boilerplate code you would like to see in here, get in touch.\n  \n  Install\n  -------\n  You can install this package from [Sublime Text 3 package manager](https://packagecontrol.io). Also you can install this package manually:\n  \n  *MacOSX*\n  \n      `git clone https://github.com/tanepiper/SublimeText-Nodejs.git ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/Nodejs`\n  \n  *Windows*\n  \n      `git clone https://github.com/tanepiper/SublimeText-Nodejs \"%APPDATA%\\Sublime Text 3\\Packages\\Nodejs\"`\n  \n  *Linux*\n  \n      `git clone https://github.com/tanepiper/SublimeText-Nodejs $HOME/.config/sublime-text-3/Packages/Nodejs`\n  \n  Build Systems\n  -------------\n  PLEASE NOTE: The build system will be refactored to provide different nodejs build systems (such as jake)\n  \n  If you have a JavaScript file open, by selecting `Tools -> Build Systems -> Nodejs` and\n  then hitting Ctrl + B, you will activate the node build system on your file and node will try to run it.\n  You may need to add a `path` variable to the settings object for this if your node executable is not found\n  \n  TODO\n  ----\n  * ~~uglify_js.js and other ./tools/*.js scripts don't work when the package is installed by SublimeText package manager~~\n  * Refactor plugin's classes inheritance in Nodejs.py\n  * Generate Sublime Text completions during installation phase depending on the version of installed Node\n  * Check for nvm installation\n  * Replace the Nodejs.sublime-build to work with [jake](https://github.com/mde/jake)\n  * Reorganise menu structure\n  * Improve code completion snippets where possible\n  * Provide an interface for writing JavaScript plugins\n  \n  Author & Contributors\n  ----------------------\n  The original author of this package [Tane Piper](https://github.com/tanepiper).\n  At the time the project maintainer is [Vardan Pogosian](https://github.com/varp).\n\n\nBracketHighlighter\n------------------\n\n  # BracketHighlighter\n  \n  Welcome to BracketHighlighter!  For a quick start guide, please go to  \n  `Preferences->Package Settings->BracketHighlighter->Quick Start Guide`.\n\n\nAdvancedNewFile\n---------------\n\n  Thank you for installing the AdvancedNewFile plugin.\n  \n  For more information please visit https://github.com/skuroda/Sublime-AdvancedNewFile.\n  \n  Note you may need to restart Sublime Text after installing this plugin.\n  \n  If you have any questions, comments, or run into issues, please let me know! Hope you enjoy the plugin.\n  \n  Thank you!\n",
+					"settings":
+					{
+						"buffer_size": 3942,
+						"line_ending": "Windows",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 358.0,
+				"last_filter": "ip",
+				"selected_items":
+				[
+					[
+						"ip",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 476.0
+			},
+			"console":
+			{
+				"height": 130.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3942,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										132,
+										132
+									]
+								],
+								"settings":
+								{
+									"auto_indent": false,
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,1,-1,-1,-1,-1,737,320,199,976",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
